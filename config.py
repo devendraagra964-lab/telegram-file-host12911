@@ -1,0 +1,15 @@
+from dotenv import load_dotenv
+import os
+
+
+load_dotenv(dotenv_path=".env")
+
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
+
+# Card creator/admin IDs
+ADMIN_IDS = [
+    8619641632,
+    6488042445
+]
